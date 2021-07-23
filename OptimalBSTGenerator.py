@@ -111,7 +111,7 @@ if __name__ == '__main__':
     generator = OptimalBSTGenerator({"begin": 0.05, "do": 0.40, "else": 0.08, "end": 0.04, "if": 0.10,
                                      "then": 0.10, "while": 0.23})
     generator.build_cost_matrix()
-    print(f"{generator.costs=}")
+    print(f"generator.costs\n{generator.costs}")
     print(f"best_root_indices:\n{generator.best_root_indices}")
 
     # Uncomment when you are ready to build the tree and look at it.
