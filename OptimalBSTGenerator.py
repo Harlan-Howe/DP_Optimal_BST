@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     # Uncomment when you are ready to try the code above on a second frequency dictionary.
     """
-    SIA_dict = {'A': 0.07292954264524104, 'AM': 0.018541409147095178, 'AND': 0.030902348578491966, 
+    GEAH_dict = {'A': 0.07292954264524104, 'AM': 0.018541409147095178, 'AND': 0.030902348578491966, 
     'ANYWHERE': 0.009888751545117428, 'ARE': 0.002472187886279357, 'BE': 0.004944375772558714, 
     'BOAT': 0.003708281829419036, 'BOX': 0.00865265760197775, 'CAR': 0.00865265760197775, 'COULD': 0.0173053152039555, 
     'DARK': 0.00865265760197775, 'DO': 0.04573547589616811, 'EAT': 0.029666254635352288, 'EGGS': 0.013597033374536464, 
@@ -139,7 +139,7 @@ if __name__ == '__main__':
     'WILL': 0.02595797280593325, 'WITH': 0.023485784919653894, 'WOULD': 0.032138442521631644, 
     'YOU': 0.042027194066749075}
     
-    generator2 = OptimalBSTGenerator(SIA_dict)
+    generator2 = OptimalBSTGenerator(GEAH_dict)
     generator2.build_cost_matrix()
     print(f"Cost of optimal = {generator2.costs[0, generator2.costs.shape[1] - 1]}")
 
