@@ -26,6 +26,7 @@ class OptimalBSTGenerator:
         :return: sum of frequencies
         """
         freq_sum = 0
+        print("find_sum_of_frequencies() not yet written.") # delete this line when it is no longer correct.
         # TODO: you write this. (It should go pretty quickly.)
         return freq_sum
 
@@ -40,6 +41,7 @@ class OptimalBSTGenerator:
         """
         best = 9E9
         best_i = -1
+        print("find_min_tree_pair_cost() not yet written.")  # delete this line when it is no longer correct.
         # TODO: you write this.
         return best, best_i
 
@@ -54,6 +56,7 @@ class OptimalBSTGenerator:
         :return: The sum of the costs of the two subtrees. (C.left + C.right)
         """
         # TODO: you write this.
+        print("find_tree_pair_cost() not yet written.")  # delete this line when it is no longer correct.
         return 0.987654321  # garbage number, but it's distinct.
 
     def find_min_cost_for_subtree(self, start: int, length: int) -> Tuple[float, int]:
@@ -67,6 +70,7 @@ class OptimalBSTGenerator:
         optimal placing went.
         """
         # TODO - you write this. Hint: it's a combination of two of the other methods.
+        print("find_min_cost_for_subtree() not yet written.")  # delete this line when it is no longer correct.
         return -0.99, -9  # garbage numbers, but distinct.
 
     def build_cost_matrix(self):
@@ -85,6 +89,7 @@ class OptimalBSTGenerator:
             self.best_root_indices[i, 1] = i
 
         # Columns 2+
+        print("build_cost_matrix() not yet completed.")  # delete this line when it is no longer correct.
         # TODO - you write this.
 
     def build_subtree_for_range(self, start: int, length: int) -> TreeNode:
